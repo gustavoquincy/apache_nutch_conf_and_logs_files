@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+
+<property>
+	<name>http.agent.name</name>
+	<value>Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36</value>
+</property>
+<property>
+	<name>plugin.includes</name>
+	<value>protocol-http|urlfilter-regex|parse-(html|tika)|index-(basic|anchor|more)|urlnormalizer-(pass|regex|basic)|scoring-opic|indexer-csv|urlfilter-suffix|parserfilter-naivebayes</value>
+</property>
+<property>
+	<name>db.ignore.external.links</name>
+	<value>true</value>
+</property>
+<property>
+	<name>elastic.host</name>
+	<value>localhost</value>
+</property>
+<property>
+	<name>elastic.port</name>
+	<value>9200</value>
+</property>
+<property>
+	<name>elastic.cluster</name>
+	<value>elasticsearch</value>
+</property>
+<property>
+	<name>elastic.index</name>
+	<value>nutch</value>
+</property>
+<property>
+  <name>fetcher.bandwidth.target</name>
+  <value>10240</value>
+</property>
+<property>
+  <name>fetcher.threads.fetch</name>
+  <value>25</value>
+</property>
+<property>
+  <name>fetcher.maxNum.threads</name>
+  <value>10000</value>
+</property>
+<property>
+	<name>parsefilter.naivebayes.trainfile</name>
+	<value>naivebayes-train.txt</value>
+</property>
+<property>
+	<name>parsefilter.naivebayes.wordlist</name>
+	<value>naivebayes-wordlist.txt</value>
+</property>
+<property>
+	<name>parser.timeout</name>
+	<value>-1</value>
+</property>
+<property>
+	<name>http.proxy.host</name>
+	<value>127.0.0.1</value>
+</property>
+<property>
+	<name>http.proxy.port</name>
+	<value>8889</value>
+</property>
+<property>
+	<name>http.timeout</name>
+	<value>20000</value>
+</property>
+</configuration>

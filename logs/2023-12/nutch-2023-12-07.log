@@ -1,0 +1,95 @@
+2023-12-05 09:49:36,531 INFO o.a.n.p.PluginManifestParser [main] Plugins: looking in: /Users/kaiy/Downloads/apache-nutch-1.19/plugins
+2023-12-05 09:49:36,626 INFO o.a.n.p.PluginRepository [main] Plugin Auto-activation mode: [true]
+2023-12-05 09:49:36,627 INFO o.a.n.p.PluginRepository [main] Registered Plugins:
+2023-12-05 09:49:36,627 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter (urlfilter-regex)
+2023-12-05 09:49:36,627 INFO o.a.n.p.PluginRepository [main] 	Html Parse Plug-in (parse-html)
+2023-12-05 09:49:36,627 INFO o.a.n.p.PluginRepository [main] 	HTTP Framework (lib-http)
+2023-12-05 09:49:36,627 INFO o.a.n.p.PluginRepository [main] 	the nutch core extension points (nutch-extensionpoints)
+2023-12-05 09:49:36,627 INFO o.a.n.p.PluginRepository [main] 	Basic Indexing Filter (index-basic)
+2023-12-05 09:49:36,627 INFO o.a.n.p.PluginRepository [main] 	Anchor Indexing Filter (index-anchor)
+2023-12-05 09:49:36,627 INFO o.a.n.p.PluginRepository [main] 	Tika Parser Plug-in (parse-tika)
+2023-12-05 09:49:36,627 INFO o.a.n.p.PluginRepository [main] 	Basic URL Normalizer (urlnormalizer-basic)
+2023-12-05 09:49:36,628 INFO o.a.n.p.PluginRepository [main] 	Regex URL Filter Framework (lib-regex-filter)
+2023-12-05 09:49:36,628 INFO o.a.n.p.PluginRepository [main] 	Regex URL Normalizer (urlnormalizer-regex)
+2023-12-05 09:49:36,628 INFO o.a.n.p.PluginRepository [main] 	CyberNeko HTML Parser (lib-nekohtml)
+2023-12-05 09:49:36,628 INFO o.a.n.p.PluginRepository [main] 	OPIC Scoring Plug-in (scoring-opic)
+2023-12-05 09:49:36,628 INFO o.a.n.p.PluginRepository [main] 	Pass-through URL Normalizer (urlnormalizer-pass)
+2023-12-05 09:49:36,628 INFO o.a.n.p.PluginRepository [main] 	More Indexing Filter (index-more)
+2023-12-05 09:49:36,628 INFO o.a.n.p.PluginRepository [main] 	Http Protocol Plug-in (protocol-http)
+2023-12-05 09:49:36,628 INFO o.a.n.p.PluginRepository [main] 	Suffix URL Filter (urlfilter-suffix)
+2023-12-05 09:49:36,628 INFO o.a.n.p.PluginRepository [main] 	CSVIndexWriter (indexer-csv)
+2023-12-05 09:49:36,628 INFO o.a.n.p.PluginRepository [main] Registered Extension-Points:
+2023-12-05 09:49:36,628 INFO o.a.n.p.PluginRepository [main] 	 (Nutch Content Parser)
+2023-12-05 09:49:36,628 INFO o.a.n.p.PluginRepository [main] 	 (Nutch URL Filter)
+2023-12-05 09:49:36,629 INFO o.a.n.p.PluginRepository [main] 	 (HTML Parse Filter)
+2023-12-05 09:49:36,629 INFO o.a.n.p.PluginRepository [main] 	 (Nutch Scoring)
+2023-12-05 09:49:36,629 INFO o.a.n.p.PluginRepository [main] 	 (Nutch URL Normalizer)
+2023-12-05 09:49:36,629 INFO o.a.n.p.PluginRepository [main] 	 (Nutch Publisher)
+2023-12-05 09:49:36,629 INFO o.a.n.p.PluginRepository [main] 	 (Nutch Exchange)
+2023-12-05 09:49:36,629 INFO o.a.n.p.PluginRepository [main] 	 (Nutch Protocol)
+2023-12-05 09:49:36,629 INFO o.a.n.p.PluginRepository [main] 	 (Nutch URL Ignore Exemption Filter)
+2023-12-05 09:49:36,629 INFO o.a.n.p.PluginRepository [main] 	 (Nutch Index Writer)
+2023-12-05 09:49:36,629 INFO o.a.n.p.PluginRepository [main] 	 (Nutch Segment Merge Filter)
+2023-12-05 09:49:36,629 INFO o.a.n.p.PluginRepository [main] 	 (Nutch Indexing Filter)
+2023-12-05 09:49:36,630 INFO o.a.n.c.Injector [main] Injector: starting at 2023-12-05 09:49:36
+2023-12-05 09:49:36,631 INFO o.a.n.c.Injector [main] Injector: crawlDb: crawl/crawldb
+2023-12-05 09:49:36,631 INFO o.a.n.c.Injector [main] Injector: urlDir: urls
+2023-12-05 09:49:36,631 INFO o.a.n.c.Injector [main] Injector: Converting injected urls to crawl db entries.
+2023-12-05 09:49:36,697 WARN o.a.h.u.NativeCodeLoader [main] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2023-12-05 09:49:36,853 INFO o.a.n.c.Injector [main] Injecting seed URL file file:/Users/kaiy/Downloads/apache-nutch-1.19/urls/url_1000.txt
+2023-12-05 09:49:36,883 WARN o.a.h.m.i.MetricsConfig [main] Cannot locate configuration: tried hadoop-metrics2-jobtracker.properties,hadoop-metrics2.properties
+2023-12-05 09:49:37,252 INFO o.a.h.m.Job [main] The url to track the job: http://localhost:8080/
+2023-12-05 09:49:37,252 INFO o.a.h.m.Job [main] Running job: job_local889525112_0001
+2023-12-05 09:49:37,363 INFO o.a.n.u.s.SuffixURLFilter [LocalJobRunner Map Task Executor #0] Reading urlfilter-suffix rules file suffix-urlfilter.txt
+2023-12-05 09:49:37,367 INFO o.a.n.n.u.r.RegexURLNormalizer [LocalJobRunner Map Task Executor #0] can't find rules for scope 'inject', using default
+2023-12-05 09:49:37,374 WARN o.a.n.c.Injector [LocalJobRunner Map Task Executor #0] Skipping ftp://ftp.isrec.isb-sib.ch/pub/databases:java.net.MalformedURLException
+2023-12-05 09:49:37,484 WARN o.a.h.m.i.MetricsSystemImpl [pool-5-thread-1] JobTracker metrics system already initialized!
+2023-12-05 09:49:37,566 INFO o.a.n.c.Injector [pool-5-thread-1] Injector: overwrite: false
+2023-12-05 09:49:37,567 INFO o.a.n.c.Injector [pool-5-thread-1] Injector: update: false
+2023-12-05 09:49:38,261 INFO o.a.h.m.Job [main] Job job_local889525112_0001 running in uber mode : false
+2023-12-05 09:49:38,263 INFO o.a.h.m.Job [main]  map 100% reduce 100%
+2023-12-05 09:49:38,265 INFO o.a.h.m.Job [main] Job job_local889525112_0001 completed successfully
+2023-12-05 09:49:38,272 INFO o.a.h.m.Job [main] Counters: 32
+	File System Counters
+		FILE: Number of bytes read=1888716
+		FILE: Number of bytes written=3365424
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=849
+		Map output records=831
+		Map output bytes=53181
+		Map output materialized bytes=54849
+		Input split bytes=289
+		Combine input records=0
+		Combine output records=0
+		Reduce input groups=804
+		Reduce shuffle bytes=54849
+		Reduce input records=831
+		Reduce output records=804
+		Spilled Records=1662
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=2
+		Total committed heap usage (bytes)=356515840
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	injector
+		urls_filtered=18
+		urls_injected=831
+	File Input Format Counters 
+		Bytes Read=0
+	File Output Format Counters 
+		Bytes Written=58801
+2023-12-05 09:49:38,285 INFO o.a.n.c.Injector [main] Injector: Total urls rejected by filters: 18
+2023-12-05 09:49:38,285 INFO o.a.n.c.Injector [main] Injector: Total urls injected after normalization and filtering: 831
+2023-12-05 09:49:38,285 INFO o.a.n.c.Injector [main] Injector: Total urls injected but already in CrawlDb: 0
+2023-12-05 09:49:38,285 INFO o.a.n.c.Injector [main] Injector: Total new urls injected: 831
+2023-12-05 09:49:38,288 INFO o.a.n.c.Injector [main] Injector: finished at 2023-12-05 09:49:38, elapsed: 00:00:01
